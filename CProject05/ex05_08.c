@@ -8,6 +8,6 @@ int main() {
 	word[1] = 'O';
 	word[2] = 'V';
 	word[3] = 'E';
-				//test
+				//test1111
 	return 0;
 }

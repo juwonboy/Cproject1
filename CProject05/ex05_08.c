@@ -9,10 +9,8 @@ int main() {
 	word[2] = 'V';
 	word[3] = 'E';
 
-
 	///9999999999
 				
 				//test
-				//test1111
 	return 0;
 }

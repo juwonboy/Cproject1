@@ -51,5 +51,11 @@
     <ClCompile Include="ex05_10.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex05_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex05_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

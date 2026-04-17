@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-jsb
+
 	char str[] = "There is no royal road to learning C.0";
 	char str2[80];
 	int a;

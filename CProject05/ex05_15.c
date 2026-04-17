@@ -25,7 +25,7 @@ int main() {
 		//printf(" %d :: %c\n", a, str[a]);
 	}
 
-	printf("목사된 str2 :: %s\n", str2);
+	printf("복사된 str2 :: %s\n", str2);
 	for (a = 0; a < len; a++)
 	{	
 		printf(" %d :: %c\n", a, str2[a]);

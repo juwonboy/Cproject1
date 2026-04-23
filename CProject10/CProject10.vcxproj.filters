@@ -36,8 +36,5 @@
     <ClCompile Include="ex10_09.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex10_02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

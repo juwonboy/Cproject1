@@ -15,31 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex11_02_01.c">
+    <ClCompile Include="ex12_01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex11_03.c">
+    <ClCompile Include="ex12_02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex11_04.c">
+    <ClCompile Include="ex12_03.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex11_05.c">
+    <ClCompile Include="ex12_04.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex11_07.c">
+    <ClCompile Include="ex12_05.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex11_08.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex11_09.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex11_10.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex11_11.c">
+    <ClCompile Include="ex12_06.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

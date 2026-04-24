@@ -8,22 +8,40 @@
 // Stack(지역 변수,함수 호출)
 
 int main() {
+	
+	char test[] = "Test String!";
 
-	//int* pndata = '\0'; // null (0)
-	//int* pndata = 100;
+	//printf("%c\n", test[0]);
+	//printf("%c\n", test[1]);
+	//printf("%c\n", test[2]);
 
-	//printf("%d\n",pndata);
-	int* pndata = NULL;
+	printf("%s\n", test);
 
-	printf("%d\n", pndata);	//	0
-	printf("%p\n", pndata);	//	000000000000000000000
+	printf("[%p] %c %c \n", test, test[0] , *test);
+	printf("[%p] %c %c \n", test, test+1 , *test+1);
+	printf("[%p] %c %c \n", test, test+2 , *test+2);
 
-	pndata = (int*)malloc(sizeof(int) * 4);
-	// 동적 할당 (프로그램이 실행(메모리)될 때 메모리 저장 공간 만듦
+	printf("[%p] %c %c \n", test, test+2 , *test+2);
 
-	free(pndata);
+	//test +1 +2 +11 주소값 구하고 해당ㄴ하는 주소의 값 구하기
+
+	printf("==================================================\n");
+	printf("[%p] %p %p %p \n", test, test + 1, test + 2, test + 11);
+	printf("[%p] %c %c %c \n", test, test + 1, test + 2,*test + 11);
+
+	printf("==================================================\n");
+	printf("==================================================\n");
+
+	printf("[%p] %p %p %p \n", test, *test+1 , *test+2 , *test + 11);
+	printf("[%p] %c %c %c \n", test, *test+1 , *test+2 , *test + 11);
+	
+	printf("==================================================\n");
+
+	printf("[%p] %c \n", test + 1, *(test + 1));
+	printf("[%p] %c \n", test + 2, *(test + 2));
+	printf("[%p] %c \n", test + 11, *(test + 11));
+	printf("[%p] %c \n", test + 12, *(test + 12));
 
 	return 0;
 
 }
-

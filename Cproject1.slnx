@@ -3,10 +3,16 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="CodeUp01/CodeUp01.vcxproj" Id="1db02609-c40f-4ed5-8af2-63bab1cb7b44" />
   <Project Path="Cproject01/Cproject01.vcxproj" Id="ab67e530-58cc-43e3-bed5-48c59e55f973" />
   <Project Path="CProject02/CProject02.vcxproj" Id="c4d2fb61-a0d4-44fa-ae35-bb41f9583487" />
   <Project Path="CProject03/CProject03.vcxproj" Id="737995ae-8ec6-4ad7-97ab-38d04a517600" />
   <Project Path="CProject04/CProject04.vcxproj" Id="42abaf3d-1024-4234-837c-154aba245ea7" />
   <Project Path="CProject05/CProject05.vcxproj" Id="caeb0044-a7f8-4958-8c5c-c2be22436e26" />
   <Project Path="CProject06/CProject06.vcxproj" Id="df4dcc10-1618-424d-b27b-1c9cac8683ce" />
+  <Project Path="CProject07/CProject07.vcxproj" Id="c76892b4-ced5-4dff-a70a-fac402820eee" />
+  <Project Path="CProject08/CProject08.vcxproj" Id="3dc3b34a-1966-4cfa-8f69-9318b59de647" />
+  <Project Path="CProject09/CProject09.vcxproj" Id="48d43009-902a-431b-b490-8b0fc90cb7ce" />
+  <Project Path="CProject10/CProject10.vcxproj" Id="71c201fe-1e73-4157-8188-ee2cf9561994" />
+  <Project Path="CProject11/CProject11.vcxproj" Id="501338f5-ae5c-404a-ae6a-a88c634f5dd9" />
 </Solution>

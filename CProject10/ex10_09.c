@@ -24,6 +24,6 @@ int main()
 
         printf("pa[%d][%d] = %c\n",i,i,pa[i][i]);
     }
-
+   
     return 0;
 }

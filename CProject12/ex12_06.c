@@ -39,8 +39,24 @@ int main()
         }
         printf("%d¹ø ÇÐ»ý °ú¸ñ ÃÑÁ¡ : %d ,Æò±Õ : %.2lf \n", i + 1, sums[i], averages[i]);
         printf("===========================================\n");
-        //calculateRank(&averages[i], &sums[i]);
     }
+
+    calculateRank(&averages, &ranks);
+
+    for (i = 0; i < STUDENTS; i++) {
+        printf("rank===========================================\n");
+        printf("%d================%d===========================\n",i,ranks[i]);
+    }
+
+/*  
+    printf("(void *)    sizeof : %d\n", sizeof(void*));
+    printf("(char *)    sizeof : %d\n", sizeof(char*));
+    printf("(short *)   sizeof : %d\n", sizeof(short*));
+    printf("(int *)     sizeof : %d\n", sizeof(int*));
+    printf("(long *)    sizeof : %d\n", sizeof(long*));
+    printf("(float *)   sizeof : %d\n", sizeof(float*));
+    printf("(double *)  sizeof : %d\n", sizeof(double*));
+*/
 
     return 0;
 }
@@ -53,7 +69,34 @@ void calculateSumAvg(int* scores, int* sums, double* averages) {
     *averages = (double)*sums / SUBJECTS;
 }
 
-void calculateRankl(double* aa, int* bb)
+void calculateRank(double* paverages, int* prank)
 {
-     
+    int i,j;
+    double temp;
+    int rankSum;
+    
+    rankSum = 0;
+    temp = 0.0;
+
+    temp = *(paverages);
+       
+    for ( i = 0; i < STUDENTS ; i++) {
+        *(prank + i) = 1; // ÃÊ±â ·©Å©´Â 1·Î ¼³Á¤
+        for (j = 0; j < STUDENTS; j++) {
+
+            double aa;
+            double bb;
+
+            aa = *(paverages + j);
+            bb = *(paverages + i);
+
+            if ( aa > bb) {
+                *(prank +i) = j;
+            }
+
+            //if (*(paverages + j) > *(paverages + i)) {
+            //    *(prank +i) = j;
+            //}
+        }
+    }
 }

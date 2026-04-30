@@ -32,7 +32,7 @@ int main()
     PRT_CHAR pch = &ch;
 
     printf("ch : %c\n", ch);
-    printf("pch : %c\n", *pch);
+  :  printf("pch : %c\n", *pch);
 
     return 0;
 }
